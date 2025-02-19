@@ -12,6 +12,7 @@ format:
 execute: 
   eval: true
   echo: true
+  format: html
 editor: visual
 ---
 
