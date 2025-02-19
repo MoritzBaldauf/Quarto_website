@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "RSeries"
+  navbar:
+    left:
+    - text: "R Series"
+      menu: 
+      - text: "Epsiode 7"
+      href: Hands-on_EX07.html # Hyperlink reference
+    - text: "Now You See it"
+      href: xxx.html
+    - text: "Introduction to QGIS"
+      href: xxx.html
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
